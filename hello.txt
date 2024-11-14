@@ -1,1 +1,2 @@
 Hello, Git!
+We are learning basics git commands 
