@@ -3,34 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TO-Do List</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>TODO LIST APP</h1>
-    <img src="todolist.jpg" alt="todoimage" width="" height="">
-    <p><em><strong>This app will help you to create your daily tasks</strong></em></p>
-    <p>Looking for a daily quotes to inspire your day?</p>
-    <a href="https://motivation.app/">Check Today's quotes</a>
-    <br>
-    <a href="mailto:nancytoniw@gmail.com">Send us your feedback</a>
-    <h6>How to create a table</h6>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Location</th>
-        </tr>
-        <tr>
-            <td>Alice</td>
-            <td>30</td>
-            <td>Nairobi</td>
-        </tr>
-        <tr>
-            <td>John</td>
-            <td>35</td>
-            <td>Kigali</td>
-        </tr>
-    </table>
+    <header>
+        <h1>My To-do List</h1>
+        <nav>
+            <ul>
+                <li><a href="">All tasks</a></li>
+                <li><a href="">Completed Tasks</a></li>
+                <li><a href="">Pending Tasks</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="task-input">
+            <h2>Add a new task</h2>
+            <p>Add your first task and manage your <span style="color:blue">TO-DO List</span></p>
+            <form>
+                <input type="text" placeholder="Enter a new task">
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+        <section id="task-list">
+            <h2>Tasks</h2>
+            <article class="task-item">
+                <h3>Task title</h3>
+                <p>Description goes here</p>
+            </article>
+            <article class="task-item"></article>
+            <!--Repeat <article> for each task-->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My To-Do List App</p>
+    </footer>
+    <div>
+        <h1></h1>
+        <p></p>
+    </div>
+    
 
     
 </body>
