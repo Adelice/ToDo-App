@@ -1,57 +1,57 @@
 /* Resetting default styles */
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box
+  margin:0;
+  padding:0;
+  box-sizing:border-box
 }
 /* style the body*/
 body{
-    font-family: Arial,sans-serif;
-    background-color: lightgray;
-    color:#333
+  font-family: Arial,sans-serif;
+  background-color: lightgray;
+  color:#333
 }
 header{
-    background-color: green;
-    color:white;
-    padding:20px
+  background-color: green;
+  color:white;
+  padding:20px
 }
 header h1{
-    font-size:1em;
+  font-size:1em;
 }
 nav ul{
-    list-style:none;
-    display:flex ;/* align items horizontally*/
-    gap:30px
+  list-style:none;
+  display:flex ;/* align items horizontally*/
+  gap:30px
 }
 nav a{
-    color: white;
-    text-decoration:none;
+  color: white;
+  text-decoration:none;
 }
 nav a:hover{
-    color:yellow;
+  color:yellow;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 #task-input{
-    background-color: white;
-    padding: 20px;
-    border-radius:5px;
-    margin-bottom:30px
+  background-color: white;
+  padding: 20px;
+  border-radius:5px;
+  margin-bottom:30px
 }
 #task-input h2{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
 }
 #task-input p{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
 }
 #task-input form{
-    gap:10px
+  gap:10px
 }
 #task-input input[type=text]{
-    padding: 10px 20px;
+  padding: 10px 20px;
 
 }
